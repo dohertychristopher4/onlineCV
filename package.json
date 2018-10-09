@@ -1,0 +1,17 @@
+{
+  "name": "onlinecv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://dohertychristopher4.github.io/onlineCV",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Christopher Doherty",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.0",
+    "node-sass": "^4.9.3"
+  }
+}
