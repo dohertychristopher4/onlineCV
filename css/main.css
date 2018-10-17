@@ -58,8 +58,6 @@
       background: url("../img/portrait_small.jpg");
       border-radius: 50%;
       border: solid 3px #444; }
-      .menu-branding .portrait img {
-        clip: rect(150px, 160px, 200px, 150px); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.8s ease-out; }
