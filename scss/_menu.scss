@@ -92,9 +92,6 @@
       background: url("../img/portrait_small.jpg");
       border-radius: 50%;
       border: solid 3px $primary-color;
-      img {
-        clip: rect(150px, 160px, 200px, 150px);
-      }
     }
   }
 
