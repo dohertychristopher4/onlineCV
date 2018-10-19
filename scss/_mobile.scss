@@ -47,6 +47,8 @@
 
     .portrait {
       background: url("../img/portrait_small.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
       width: 150px;
       height: 150px;
     }
@@ -74,5 +76,8 @@
   }
   .projects {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .small-info {
+    font-size: 1rem;
   }
 }
